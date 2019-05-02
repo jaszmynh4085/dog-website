@@ -3,7 +3,7 @@
     }
 
     h2 {
-        font-size: 35px;
+        font-size: 45px;
     }
 
     h4 {
@@ -30,13 +30,10 @@
     }
    
    
-    .container {
-        padding: 10px;
-
-    }
-
     h2 {
         text-align: center;
 
     }
-    
+     .container {
+        padding: 10px;
+    }
