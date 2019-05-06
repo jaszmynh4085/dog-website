@@ -7,7 +7,7 @@
     <meta name="author" content="name">
     <meta name="description" content="description here">
     <meta name="keywords" content="keywords,here">
-    <!-- Latest compiled and minified CSS -->
+    <!-- Latest compiled and minified CSS -->s
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 
     <!-- jQuery library -->
@@ -21,7 +21,20 @@
 
     <script>
         $(function() {
-
+            $('#example1').hide()
+            $('.reHide').hide()
+            $('.unHide').click(function() {
+                console.log('the button was clicked');
+                $('#example1').show();
+                $(this).hide();
+                $('.reHide').show();
+            })
+            $('.reHide').click(function(){
+                console.log('button was clicked');
+                $('#example1').hide();
+                $(this).hide();
+                $('.unHide').show();
+            })
         });
     </script>
 
@@ -62,13 +75,16 @@
             </div>
 
     </nav>
+    
+
 
     <div class="container">
         <!--        All links will be put at the bottom of every “section” that they belong in-->
         <!--Section 1:-->
         <div>
             <h2 id="breeds"> Breeds: </h2>
-            <br> <p class="center">339 breeds of dogs which are divided into groups based upon the dog’s purpose or function.</p>
+            <br>
+            <p class="center">339 breeds of dogs which are divided into groups based upon the dog’s purpose or function.</p>
         </div>
 
         <br> <br>
@@ -76,9 +92,11 @@
         <div>
             <h3>Herding</h3>
             <br>
+                  <button class="unHide">Show Examples</button>
+
 
             <!--<button>show examples</button>-->
-            <div class="container" id="examples">
+            <div class="container" id="example1">
                 <h4>Examples:</h4>
                 <br>
 
@@ -90,9 +108,11 @@
 
                 <br>
 
-                <p>The Bearded Collie, otherwise known as Beardie, are medium to large dogs that can live up to 14 years. on average they weigh around 45-55 pounds. A female Beardie can measure up to 20-21 inches tall, while a male can measure up to 21-22 inches tall.</p>
+                <p>The Bearded Collie, otherwise known as Beardie, are medium to large dogs that can live up to 14 years. on average they weigh around 45-55 pounds. A female Beardie can measure up to 20-21 inches tall, while a male can measure up to 21-22
+                    inches tall.</p>
             </div>
         </div>
+      <button class="reHide">Hide Examples</button>
 
 
         <div>
@@ -101,7 +121,7 @@
 
             <div>
                 <h3>Working</h3>
-                <div class="container">
+                <div class="container" id="example2">
                     <br>
                     <h4>Examples:</h4>
                     <br>
@@ -222,8 +242,10 @@
             <br> <br>
 
             <h2 id="sizes">More on sizes:</h2>
-            <br> <p class="center">*All sizes depends on who you ask.*</p>
-            <br><p class="center">*Some places have medium/large dogs starting at 55 pounds others at 50 pounds and small/medium at 25-35 pounds*</p>
+            <br>
+            <p class="center">*All sizes depends on who you ask.*</p>
+            <br>
+            <p class="center">*Some places have medium/large dogs starting at 55 pounds others at 50 pounds and small/medium at 25-35 pounds*</p>
             <div class="jumbotron">
 
 
