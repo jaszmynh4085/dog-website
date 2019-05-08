@@ -26,66 +26,129 @@
     </script>
 
 </head>
+<link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+
+<style>
+    body {
+        font-family: 'Poiret One', cursive;
+
+        padding-top: 40px;
+        padding-bottom: 20px;
+        background-color: white;
+    }
+
+    #landing {
+        display: table;
+        width: 100%;
+        height: 110%;
+        opacity: 0.7;
+        background-size: cover;
+        text-align: center;
+    }
+
+
+    h1 {
+        font-size: 60px;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+
+    h4 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    @media(min-width:768px) {
+        h1 {
+            font-size: 100px;
+        }
+        h2 {
+            font-size: 60px;
+        }
+    }
+
+    .text-vertical-center {
+        text-align: center;
+        vertical-align: middle;
+        display: table-cell;
+        color: white;
+    }
+</style>
 
 <body>
 
-
+    <h1 class="text-center">Dog Breeds</h1>
 
 
     <div class="container">
         <!--        All links will be put at the bottom of every “section” that they belong in-->
-        
+
         <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-                <a class="navbar-brand" href="#landing"></a>
-            </div>
-            <div class="collapse navbar-collapse" id="myNavbar">
-                <ul class="nav navbar-nav">
-                    <li class="active"><a href="#">Home</a></li>
-                    <li><a href="#breeds">Breeds</a></li>
-                    <li><a href="#sizes">Sizes</a></li>
-                    <li><a href="#care">Basic Care</a></li>
-                    <li><a href="#toys">Recomeneded Toys</a></li>
 
 
 
+                    <div class="navbar-header">
 
+                    </div>
+                    <div class="collapse navbar-collapse" id="myNavbar">
 
-                </ul>
-            </div>
+                        <ul class="nav navbar-nav">
+                            <li class="active"><a href="#">Home</a></li>
+                            <li><a href="#breeds">Breeds</a></li>
+                            <li><a href="#herding">Herding</a></li>
+                            <li><a href="#working">Working</a></li>
+                            <li><a href="#toygroup">Toy Group</a></li>
+                            <li><a href="#terrier">Terrier</a></li>
+                            <li><a href="#sporting">Sporting</a></li>
+                            <li><a href="#nonsporting">Non-sporting</a></li>
+                            <li><a href="#hound">Hound</a></li>
+                            <li><a href="#funfacts">Fun Facts</a></li>
+                        </ul>
+                    </div>
+                </div>
+        </nav>
+        </ul>
         </div>
+    </div>
     </nav>
-        
-        
-        <!--Section 1:-->
-        <div>
-            <h2> Breeds: </h2>
+
+
+    <!--Section 1:-->
+    <div>
+        <div class="Breeds" id="breeds">
+            <h2> BREEDS: </h2>
             <br> 339 breeds of dogs which are divided into groups based upon the dog’s purpose or function.
         </div>
 
         <br> <br>
 
         <div>
-            <h3>Herding</h3>
-            <br>
-            <div class="container">
-                 <h4>Examples:</h4>
+            <div class="Herding" id="herding">
+                <h2>HERDING:</h2>
+                <br>
+                <h4>Examples:</h4>
 
-                    <p> <br>German shepherds
+                <p> <br>German shepherds
                     <br> large dog (females: 50-70 pounds, 22-24 inches, 65-90 pounds, 24-26 inches) Life expectancy of 7-10 years</p>
-                    
-                    <br>
+
+                <br>
 
                 <p>Sheltie (The Shetland Sheepdog)
                     <br> Small dog (15-25 pounds, 13-16 inches) Life expectancy of 12-14 years </p>
 
-<br>
+                <br>
 
                 <p>Bearded Collie (Beardie)
                     <br> Medium to Large dog (45-55 pounds, female: 20-21 inches, male:21-22 inches) Life expectancy of 12-14 years</p>
@@ -97,130 +160,147 @@
 
             <br> <br>
 
+
+
             <div>
-                <h3>Working</h3>
-                <div class="container">
+                <div class="Working" id="working">
+
+                    <h2>WORKING:</h2>
                     <br>
                     <h4>Examples:</h4>
 
-                        <p><br> German pinscher
+                    <p><br> German pinscher
                         <br> Medium dog (25-45 pounds, 17,20 inches) Life expectancy of 12-14 years </p>
-                        
-                        <br>
+
+                    <br>
 
                     <p> boxer
                         <br> Large dog (male: 65-80 pounds, 23-25 inches, female: 15 pounds less than male, 21.5-23.5 inches) Life expectancy of 10-12 years </p>
-                        
-                        <br>
+
+                    <br>
 
                     <p>boerboel
                         <br> Ex Large dog (150-200 pounds, male: 24-27 inches, female: 22-25 inches) Life expectancy of 9-11 years</p>
                 </div>
             </div>
 
+
+
+            <br> <br>
+
             <div>
-                <br> <br>
-                <h3>Toy group</h3>
-                <div class="container">
+                <div class="Toygroup" id="toygroup">
+
+                    <h2>TOY GROUP:</h2>
                     <br>
 
                     <h4>Examples:</h4>
 
-                        <p><br> silky terrier Miniature dog (Around 10 pounds, 9-10 inches) Life expectancy of 13-15 years</p>
-                        
-                        <br>
+                    <p><br> silky terrier Miniature dog (Around 10 pounds, 9-10 inches) Life expectancy of 13-15 years</p>
+
+                    <br>
 
                     <p>chihuahua
                         <br> Miniature dog (at most 6 pounds, 5-8 inches) Life expectancy of 14-16 years </p>
-                        
-                        <br>
+
+                    <br>
 
                     <p> maltese <br> Miniature dog (under 7 pounds, 7-9 inches) Life expectancy of 12-15 years</p>
                 </div>
             </div>
 
+
+            <br> <br>
+
             <div>
-                <br> <br>
-                <h3>Terrier</h3>
-                <div class="container">
+                <div class="Terrier" id="terrier">
+                    <h2>TERRIER:</h2>
                     <br>
                     <h4>Examples:</h4>
 
-                        <p><br>Manchester terrier
+                    <p><br>Manchester terrier
                         <br>Small dog (12-22 pounds, 15-16 inches) Life expectancy of 15-17 years </p>
-                        
-                        <br>
+
+                    <br>
 
                     <p>Australian terrier
                         <br>Small dog (15-20 pounds, 10-11 inches) Life expectancy of 11-15 years </p>
-                        
-                        <br>
-                        
+
+                    <br>
+
                     <p>border terrier
                         <br>Small dog (female: 11.5-14 pounds, male: 13-15.5 pounds, 12-15 inches) Life expectancy of 12-15 years</p>
                 </div>
             </div>
 
+
+            <br> <br>
+
+
             <div>
-                <br> <br>
-                <h3>Sporting</h3>
-                <div class="container">
+                <div class="Sporting" id="sporting">
+                    <h2>SPORTING:</h2>
                     <br>
                     <h4>Examples:</h4>
 
-                        <p><br>American water spaniel
+                    <p><br>American water spaniel
                         <br>Small to Medium dog (male: 30-45 pounds, female: 25-40 pounds, 15-18 inches) Life expectancy of 10-14 years </p>
-                        
-                        <br>
+
+                    <br>
 
                     <p>cocker spaniel
                         <br>Small dog (male: 25-30 pounds, 14.5-15.5 inches, female: 20-25 pounds, 13.5-14.5 inches) Life expectancy of 10-14 years</p>
-                        
-                        <br>
+
+                    <br>
 
                     <p>flat coated retriever
                         <br>Large dog (60-70 pounds, male: 23-24.5 inches, female: 22-23.5 inches) Life expectancy of 8-10 years</p>
                 </div>
             </div>
 
+
+            <br> <br>
+
+
             <div>
-                <br> <br>
-                <h3>Non-sporting</h3>
-                <div class="container">
+                <div class="Nonsporting" id="nonsporting">
+                    <h2>NON-SPORTING:</h2>
                     <br>
                     <h4>Examples:</h4>
 
-                        <p><br>bulldog
+                    <p><br>bulldog
                         <br>Medium dog (male: 50 pounds, Female: 40 pounds, 14-15 inches) Life expectancy of 8-10 years </p>
-                        
-                        <br>
+
+                    <br>
 
                     <p>American Eskimo dog
                         <br>Small dog (standard 23-25 pounds, 15-19 inches) (can be smaller) Life expectancy of 13-15 years</p>
-                        
-                        <br>
+
+                    <br>
 
                     <p>dalmatian
                         <br>Medium to large dog (45-70 pounds, 19-24 inches) Life expectancy of 11-13 years</p>
                 </div>
             </div>
+            <br> <br>
+
+
 
             <div>
-                <br> <br>
-                <h3>Hound</h3>
-                <div class="container">
+                <div class="Hound" id="hound">
+                    <h2>HOUND:</h2>
                     <br>
                     <h4>Examples:</h4>
 
-                        <p><br>bloodhound
+                    <p><br>bloodhound
                         <br>Large dog (90-110 pounds, male: 25-27 inches, female: 23-25 inches) Life expectancy of 10-12 years </p>
-                        
-                        <br>
+
+                    <br>
 
                     <p>basset hound
                         <br>Medium to large dog (40-65 pounds, up to 15 inches) Life expectancy of 12-13 years </p>
-                        
-                        <br>
+
+                    <br>
 
                     <p>beagle
                         <br>Small dog (under 20 pounds when 13 inches and under, 20-30 pounds when 13-15 inches) Life expectancy of 10-15 years</p>
@@ -230,36 +310,40 @@
             <br> <br>
             <div class="links">
                 <p>want to find more about the breeds listed and those that are not listed? <br> search for them on these websites: </p>
-                (https://www.akc.org) 
+                (https://www.akc.org)
                 <br>(https://dogtime.com/dog-breeds/profiles)
             </div>
             <br> <br>
 
-            <h2>More on sizes:</h2>
-            <br> *All sizes depends on who you ask.*
-            <br>*Some places have medium/large dogs starting at 55 pounds others at 50 pounds and small/medium at 25-35 pounds*
-            <div class="jumbotron">
 
 
-                <br>
-                <p>For a dog to be considered a large dog breed they have to weigh at least 50 pounds and have a height of (around) 24 inches. From there breeders separate the dogs further. Dogs over 100 pounds will be considered giant dogs. Officially any
-                    dog that weighs more than 50 pounds but less than 100 are large dogs </p>
+            <div>
+                <div class="Funfacts" id="funfacts">
+                    <h2>FUN FACTS:</h2>
+                    <br> *All sizes depends on who you ask.*
+                    <br>*Some places have medium/large dogs starting at 55 pounds others at 50 pounds and small/medium at 25-35 pounds*
+                    <div class="jumbotron">
 
-                <br>
-                <p>Small to Medium sized dogs are about 18-22 inches in height and weigh about 35-65 (or 40-60) pounds </p>
 
-                <br>
-                <p>Small dog breeds may be around 10 inches. Then there are miniature dog breeds such as toy dogs that vary between 4 pounds and 12 pounds and teacup dogs that are smaller than usual toy dogs</p>
-            </div>
+                        <br>
+                        <p>For a dog to be considered a large dog breed they have to weigh at least 50 pounds and have a height of (around) 24 inches. From there breeders separate the dogs further. Dogs over 100 pounds will be considered giant dogs. Officially
+                            any dog that weighs more than 50 pounds but less than 100 are large dogs </p>
 
-            <div class="links">
-                <p>Links with more information:</p>
-                (https://petlife.media/what-is-considered-a-large-dog-breed) 
-                <br>(https://www.yourpurebredpuppy.com/dogbreeds/index-medium-dog-breeds.html) 
-                <br>(https://www.cuteness.com/blog/content/what-qualifies-as-a-medium-sized-dog) 
-                <br>(https://www.trainpetdog.com/dog-breed-size-chart.html)
-            </div>
-        </div>
+                        <br>
+                        <p>Small to Medium sized dogs are about 18-22 inches in height and weigh about 35-65 (or 40-60) pounds </p>
+
+                        <br>
+                        <p>Small dog breeds may be around 10 inches. Then there are miniature dog breeds such as toy dogs that vary between 4 pounds and 12 pounds and teacup dogs that are smaller than usual toy dogs</p>
+                    </div>
+
+                    <div class="links">
+                        <p>Links with more information:</p>
+                        (https://petlife.media/what-is-considered-a-large-dog-breed)
+                        <br>(https://www.yourpurebredpuppy.com/dogbreeds/index-medium-dog-breeds.html)
+                        <br>(https://www.cuteness.com/blog/content/what-qualifies-as-a-medium-sized-dog)
+                        <br>(https://www.trainpetdog.com/dog-breed-size-chart.html)
+                    </div>
+                </div>
 
 </body>
 
