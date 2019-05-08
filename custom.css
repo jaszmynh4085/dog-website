@@ -49,15 +49,6 @@ body {
         background-color: white;
     }
 
-    #landing {
-        display: table;
-        width: 100%;
-        height: 110%;
-        opacity: 0.7;
-        background-size: cover;
-        text-align: center;
-    }
-
     .text-vertical-center {
         text-align: center;
         vertical-align: middle;
@@ -77,4 +68,7 @@ body {
    .container {
       padding: 40px;
    }
+   
+   
+   
    
