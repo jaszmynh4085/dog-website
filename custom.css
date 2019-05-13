@@ -19,11 +19,11 @@
       .large {
          display: none;
       }
-      
+
    }
-   
-   @media(min-width:600px){
-       #gallery {
+
+   @media(min-width:600px) {
+      #gallery {
          display: none;
       }
    }
@@ -45,18 +45,17 @@
       .large {
          visibility: visible;
       }
-     
+
    }
 
    #landing {
       display: table;
       width: 100%;
-      height: 110%;
+      height: 100%;
       background: url('') center no-repeat;
-      opacity: 0.84;
       background-size: cover;
       text-align: center;
-      margin: 30px;
+      margin-top: 30px;
    }
 
    body {
